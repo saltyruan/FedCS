@@ -1,0 +1,16 @@
+{
+    "model_name" : "resnet18",
+    "no_models" : 20,
+    "memory_k":3,
+    "warmup":50,
+    "type" : "cifar10",
+    "global_rounds" : 200,
+    "local_epochs": 20,
+    "k" : 4,
+    "batch_size" : 64,
+    "lr" : 0.001,
+    "momentum" : 0.0001,
+    "lambda" : 0.3,
+    "batch_client_num" : 5,
+    "alpha" :0.1
+}
